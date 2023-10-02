@@ -6,6 +6,6 @@ public class safaDenem1 {
 
         System.out.println("Deneme github");
 
-
+        System.out.println("safa branch ");
     }
 }
