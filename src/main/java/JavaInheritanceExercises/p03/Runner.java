@@ -6,7 +6,7 @@ public class Runner {
         Rectangle rectangle = new Rectangle(3.0,5.0);
 
         double area =rectangle.getArea();
-        System.out.println("Rectangle Area= "+area);
+        System.out.println("Rectangle Area is = "+area);
 
     }
 }
