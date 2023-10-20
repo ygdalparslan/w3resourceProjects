@@ -7,6 +7,12 @@ Create a subclass called HRManager that overrides the work() method and adds a n
 
 public class Employee {
 
+    private double getSalary;
+
+    public double getGetSalary() {
+        return getSalary;
+    }
+
     public void work(){
 
 
