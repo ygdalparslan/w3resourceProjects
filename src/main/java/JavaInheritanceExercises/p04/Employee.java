@@ -7,12 +7,18 @@ Create a subclass called HRManager that overrides the work() method and adds a n
 
 public class Employee {
 
-    private double getSalary;
+    private double salary;
 
-    public double getGetSalary() {
-        return getSalary;
+    public Employee(double salary) {
+        this.salary = salary;
     }
+
+    public double getSalary() {
+        return salary;
+    }
+
     public void work(){
+        System.out.println("working as an employee!");
     }
 
 }
